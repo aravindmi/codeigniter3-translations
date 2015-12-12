@@ -1,30 +1,58 @@
 <?php
 /**
-* System messages translation for CodeIgniter(tm)
-*
-* @author	CodeIgniter community
-* @copyright	Copyright (c) 2014 - 2015, British Columbia Institute of Technology (http://bcit.ca/)
-* @license	http://opensource.org/licenses/MIT MIT License
-* @link	http://codeigniter.com
-*/
+ * CodeIgniter
+ *
+ * An open source application development framework for PHP
+ *
+ * This content is released under the MIT License (MIT)
+ *
+ * Copyright (c) 2014 - 2015, British Columbia Institute of Technology
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ *
+ * @package	CodeIgniter
+ * @author	EllisLab Dev Team
+ * @copyright	Copyright (c) 2008 - 2014, EllisLab, Inc. (http://ellislab.com/)
+ * @copyright	Copyright (c) 2014 - 2015, British Columbia Institute of Technology (http://bcit.ca/)
+ * @license	http://opensource.org/licenses/MIT	MIT License
+ * @link	http://codeigniter.com
+ * @since	Version 1.0.0
+ * @filesource
+ */
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-$lang['ut_test_name'] = 'टेस्ट नाम';
-$lang['ut_test_datatype'] = 'टेस्ट डाटाटाइप';
-$lang['ut_res_datatype'] = 'इछित डाटाटाइप';
-$lang['ut_result'] = 'परिणाम';
-$lang['ut_undefined'] = 'अपरिभाषित टेस्ट का नाम';
-$lang['ut_file'] = 'फ़ाइल का नाम';
-$lang['ut_line'] = 'लाइन नंबर';
-$lang['ut_passed'] = 'उत्तीर्ण';
-$lang['ut_failed'] = 'विफल';
-$lang['ut_boolean'] = 'बूलियन';
-$lang['ut_integer'] = 'पूर्णांक';
-$lang['ut_float'] = 'फ्लोट';
-$lang['ut_double'] = 'फ्लोट'; // can be the same as float
-$lang['ut_string'] = 'शृंखला';
-$lang['ut_array'] = 'ऐरे';
-$lang['ut_object'] = 'ऑब्जेक्ट';
-$lang['ut_resource'] = 'रिसोर्स';
-$lang['ut_null'] = 'मूल्य विरहित';
-$lang['ut_notes'] = 'टिप्पणियाँ';
+$lang['ut_test_name'] = 'Test Name';
+$lang['ut_test_datatype'] = 'Test Datatype';
+$lang['ut_res_datatype'] = 'Expected Datatype';
+$lang['ut_result'] = 'Result';
+$lang['ut_undefined'] = 'Undefined Test Name';
+$lang['ut_file'] = 'File Name';
+$lang['ut_line'] = 'Line Number';
+$lang['ut_passed'] = 'Passed';
+$lang['ut_failed'] = 'Failed';
+$lang['ut_boolean'] = 'Boolean';
+$lang['ut_integer'] = 'Integer';
+$lang['ut_float'] = 'Float';
+$lang['ut_double'] = 'Float'; // can be the same as float
+$lang['ut_string'] = 'String';
+$lang['ut_array'] = 'Array';
+$lang['ut_object'] = 'Object';
+$lang['ut_resource'] = 'Resource';
+$lang['ut_null'] = 'Null';
+$lang['ut_notes'] = 'Notes';

@@ -1,27 +1,55 @@
 <?php
 /**
- * System messages translation for CodeIgniter(tm)
+ * CodeIgniter
  *
- * @author	CodeIgniter community
+ * An open source application development framework for PHP
+ *
+ * This content is released under the MIT License (MIT)
+ *
+ * Copyright (c) 2014 - 2015, British Columbia Institute of Technology
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ *
+ * @package	CodeIgniter
+ * @author	EllisLab Dev Team
+ * @copyright	Copyright (c) 2008 - 2014, EllisLab, Inc. (http://ellislab.com/)
  * @copyright	Copyright (c) 2014 - 2015, British Columbia Institute of Technology (http://bcit.ca/)
  * @license	http://opensource.org/licenses/MIT	MIT License
  * @link	http://codeigniter.com
+ * @since	Version 1.0.0
+ * @filesource
  */
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-$lang['upload_userfile_not_set'] = 'userfile नामक एक पोस्ट वेरिएबल पाने में असमर्थ।';
-$lang['upload_file_exceeds_limit'] = 'अपलोड की गई फ़ाइल अपने PHP कॉन्फ़िगरेशन फाइल में अधिकतम स्वीकृत आकार से अधिक है।';
-$lang['upload_file_exceeds_form_limit'] = 'अपलोड की गई फ़ाइल फार्म जमा द्वारा अनुमति अधिकतम आकार से अधिक है।';
-$lang['upload_file_partial'] = 'फ़ाइल केवल आंशिक रूप से अपलोड किया गया था।';
-$lang['upload_no_temp_directory'] = 'टेम्पररी फ़ोल्डर मौजूद नहीं है।';
-$lang['upload_unable_to_write_file'] = 'फ़ाइल को डिस्क पर नहीं लिखा जा सकता है।';
-$lang['upload_stopped_by_extension'] = 'फाइल अपलोड एक्सटेंशन से बंद कर दिया गया था।';
-$lang['upload_no_file_selected'] = 'आप अपलोड करने के लिए फ़ाइल का चयन नहीं किया।';
-$lang['upload_invalid_filetype'] = 'आप अपलोड करने के लिए प्रयास कर रहे फ़ाइल प्रकार की अनुमति नहीं है।';
-$lang['upload_invalid_filesize'] = 'आप अपलोड करने के लिए प्रयास कर रहे फ़ाइल अनुमति आकार से बड़ा है।';
-$lang['upload_invalid_dimensions'] = 'अपलोड करने के लिए प्रयास कर रहे हैं वो छवि आप की अनुमति दी आयामों में फिट नहीं है।';
-$lang['upload_destination_error'] = 'अंतिम गंतव्य के लिए अपलोड की गई फ़ाइल स्थानांतरित करने के लिए प्रयास करते समय एक समस्या आ गयी।';
-$lang['upload_no_filepath'] = 'अपलोड पथ वैध प्रतीत नहीं होता है।';
-$lang['upload_no_file_types'] = 'आप ने किसी भी अनुमति देने देने लायक फ़ाइल प्रकारों को निर्दिष्ट नहीं किया है।';
-$lang['upload_bad_filename'] = 'प्रस्तुत फ़ाइल नाम पहले से ही सर्वर पर मौजूद है।';
-$lang['upload_not_writable'] = 'अपलोड गंतव्य फ़ोल्डर लिखने योग्य होने के लिए प्रकट नहीं होता है।';
+$lang['upload_userfile_not_set'] = 'Unable to find a post variable called userfile.';
+$lang['upload_file_exceeds_limit'] = 'The uploaded file exceeds the maximum allowed size in your PHP configuration file.';
+$lang['upload_file_exceeds_form_limit'] = 'The uploaded file exceeds the maximum size allowed by the submission form.';
+$lang['upload_file_partial'] = 'The file was only partially uploaded.';
+$lang['upload_no_temp_directory'] = 'The temporary folder is missing.';
+$lang['upload_unable_to_write_file'] = 'The file could not be written to disk.';
+$lang['upload_stopped_by_extension'] = 'The file upload was stopped by extension.';
+$lang['upload_no_file_selected'] = 'You did not select a file to upload.';
+$lang['upload_invalid_filetype'] = 'The filetype you are attempting to upload is not allowed.';
+$lang['upload_invalid_filesize'] = 'The file you are attempting to upload is larger than the permitted size.';
+$lang['upload_invalid_dimensions'] = 'The image you are attempting to upload doesn\'t fit into the allowed dimensions.';
+$lang['upload_destination_error'] = 'A problem was encountered while attempting to move the uploaded file to the final destination.';
+$lang['upload_no_filepath'] = 'The upload path does not appear to be valid.';
+$lang['upload_no_file_types'] = 'You have not specified any allowed file types.';
+$lang['upload_bad_filename'] = 'The file name you submitted already exists on the server.';
+$lang['upload_not_writable'] = 'The upload destination folder does not appear to be writable.';

@@ -1,28 +1,56 @@
 <?php
 /**
-* System messages translation for CodeIgniter(tm)
-*
-* @author	CodeIgniter community
-* @copyright	Copyright (c) 2014 - 2015, British Columbia Institute of Technology (http://bcit.ca/)
-* @license	http://opensource.org/licenses/MIT MIT License
-* @link	http://codeigniter.com
-*/
+ * CodeIgniter
+ *
+ * An open source application development framework for PHP
+ *
+ * This content is released under the MIT License (MIT)
+ *
+ * Copyright (c) 2014 - 2015, British Columbia Institute of Technology
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ *
+ * @package	CodeIgniter
+ * @author	EllisLab Dev Team
+ * @copyright	Copyright (c) 2008 - 2014, EllisLab, Inc. (http://ellislab.com/)
+ * @copyright	Copyright (c) 2014 - 2015, British Columbia Institute of Technology (http://bcit.ca/)
+ * @license	http://opensource.org/licenses/MIT	MIT License
+ * @link	http://codeigniter.com
+ * @since	Version 1.0.0
+ * @filesource
+ */
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-$lang['imglib_source_image_required'] = 'आप अपनी वरीयताओं में एक स्रोत छवि निर्दिष्ट करना होगा।';
-$lang['imglib_gd_required'] = 'जी.डी. छवि पुस्तकालय इस सुविधा के लिए आवश्यक है।';
-$lang['imglib_gd_required_for_props'] = 'आपका सर्वर छवि गुण निर्धारित करने के क्रम में जी.डी. छवि पुस्तकालय का समर्थन करना चाहिए।';
-$lang['imglib_unsupported_imagecreate'] = 'आपका सर्वर छवि के इस प्रकार के प्रक्रिया के लिए आवश्यक जी.डी. समारोह का समर्थन नहीं करता है।';
-$lang['imglib_gif_not_supported'] = 'GIF छवियों अक्सर लाइसेंस प्रतिबंध के कारण समर्थित नहीं हैं। आप के बजाय JPG या PNG छवियों का उपयोग करना पड़ सकता है।';
-$lang['imglib_jpg_not_supported'] = 'JPG छवियों समर्थित नहीं हैं।';
-$lang['imglib_png_not_supported'] = 'PNG छवियों समर्थित नहीं हैं।';
-$lang['imglib_jpg_or_png_required'] = 'अपनी वरीयताओं में निर्दिष्ट छवि का आकार प्रोटोकॉल केवल JPEG या PNG छवि प्रकार के साथ काम करता है।';
-$lang['imglib_copy_error'] = 'फ़ाइल को प्रतिस्थापित करने का प्रयास करते समय कोई त्रुटि आई थी। अपनी फाइल निर्देशिका लिखने योग्य है सुनिश्चित करें।';
-$lang['imglib_rotate_unsupported'] = 'छवि रोटेशन अपने सर्वर द्वारा समर्थित होना प्रकट नहीं होता है।';
-$lang['imglib_libpath_invalid'] = 'अपनी छवि पुस्तकालय के लिए रास्ता सही नहीं है। अपनी छवि वरीयताओं में सही पथ सेट करें।';
-$lang['imglib_image_process_failed'] = 'इमेज प्रोसेसिंग में विफल रहा है। आपके सर्वर चुना प्रोटोकॉल का समर्थन करता है कि सत्यापित करने और अपनी छवि पुस्तकालय के लिए रास्ता सही है कि कृपया।';
-$lang['imglib_rotation_angle_required'] = 'रोटेशन के कोण छवि को घुमाने के लिए आवश्यक है।';
-$lang['imglib_invalid_path'] = 'छवि के लिए रास्ता सही नहीं है।';
-$lang['imglib_copy_failed'] = 'छवि प्रतिलिपि दिनचर्या में विफल रहा है।';
-$lang['imglib_missing_font'] = 'उपयोग करने के लिए एक फ़ॉन्ट ढूंढने में असमर्थ।';
-$lang['imglib_save_failed'] = 'छवि को बचाने में असमर्थ। छवि और फाइल निर्देशिका लिखने योग्य हैं सुनिश्चित करें।';
+$lang['imglib_source_image_required'] = 'You must specify a source image in your preferences.';
+$lang['imglib_gd_required'] = 'The GD image library is required for this feature.';
+$lang['imglib_gd_required_for_props'] = 'Your server must support the GD image library in order to determine the image properties.';
+$lang['imglib_unsupported_imagecreate'] = 'Your server does not support the GD function required to process this type of image.';
+$lang['imglib_gif_not_supported'] = 'GIF images are often not supported due to licensing restrictions. You may have to use JPG or PNG images instead.';
+$lang['imglib_jpg_not_supported'] = 'JPG images are not supported.';
+$lang['imglib_png_not_supported'] = 'PNG images are not supported.';
+$lang['imglib_jpg_or_png_required'] = 'The image resize protocol specified in your preferences only works with JPEG or PNG image types.';
+$lang['imglib_copy_error'] = 'An error was encountered while attempting to replace the file. Please make sure your file directory is writable.';
+$lang['imglib_rotate_unsupported'] = 'Image rotation does not appear to be supported by your server.';
+$lang['imglib_libpath_invalid'] = 'The path to your image library is not correct. Please set the correct path in your image preferences.';
+$lang['imglib_image_process_failed'] = 'Image processing failed. Please verify that your server supports the chosen protocol and that the path to your image library is correct.';
+$lang['imglib_rotation_angle_required'] = 'An angle of rotation is required to rotate the image.';
+$lang['imglib_invalid_path'] = 'The path to the image is not correct.';
+$lang['imglib_copy_failed'] = 'The image copy routine failed.';
+$lang['imglib_missing_font'] = 'Unable to find a font to use.';
+$lang['imglib_save_failed'] = 'Unable to save the image. Please make sure the image and file directory are writable.';
