@@ -37,11 +37,11 @@
  */
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-$lang['db_invalid_connection_str'] = 'Unable to determine the database settings based on the connection string you submitted.';
-$lang['db_unable_to_connect'] = 'Unable to connect to your database server using the provided settings.';
-$lang['db_unable_to_select'] = 'Unable to select the specified database: %s';
-$lang['db_unable_to_create'] = 'Unable to create the specified database: %s';
-$lang['db_invalid_query'] = 'The query you submitted is not valid.';
+$lang['db_invalid_connection_str'] = 'നിങ്ങൾ സമർപ്പിച്ച കണക്ഷൻ സ്ട്രിംഗ് അടിസ്ഥാനമാക്കി ഡാറ്റാബേസ് ക്രമീകരണങ്ങൾ നിർണ്ണയിക്കാനായില്ലാ.';
+$lang['db_unable_to_connect'] = 'നൽകിയിരിക്കുന്ന ക്രമീകരണങ്ങൾ ഉപയോഗിച്ച് നിങ്ങളുടെ ഡാറ്റാബേസ് സെർവർ ബന്ധപ്പെടാൻ സാധിക്കുന്നില്ലാ.';
+$lang['db_unable_to_select'] = 'തന്നിട്ടുള്ള ഡാറ്റാബേസ് തിരഞ്ഞെടുക്കാന്‍ സാധിക്കുന്നില്ലാ: %s';
+$lang['db_unable_to_create'] = 'തന്നിട്ടുള്ള ഡാറ്റാബേസ് നിര്‍മിക്കാന്‍  സാധിക്കുന്നില്ലാ: %s';
+$lang['db_invalid_query'] = 'നിങ്ങൾ സമർപ്പിച്ച ഡാറ്റാബേസ് query സാധുവല്ലാ.';
 $lang['db_must_set_table'] = 'You must set the database table to be used with your query.';
 $lang['db_must_use_set'] = 'You must use the "set" method to update an entry.';
 $lang['db_must_use_index'] = 'You must specify an index to match on for batch updates.';
